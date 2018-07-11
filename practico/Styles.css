@@ -1,0 +1,155 @@
+/* Estructuta   */
+body {margin: 0;
+background: #1a5280;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    color: #05195d
+;
+    text-align: justify;}
+h1{
+    color: white ;
+    font-family: "arial", helvetica, sans-sserif;
+}
+h3{
+    color: white;
+    font-family: "arial", helvetica, sans-sserif;
+}
+
+.header {
+    padding: 30px;
+    text-align: center; 
+}
+
+
+.column {
+    background: #cacb60;
+    float: left;
+    width: 45%;
+    padding: 20px;
+    margin-left: 4px;
+    margin-right: 0px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 0px;
+}
+
+/* barra de menues */
+
+ul {
+    list-style-type: none;
+    margin: 0 0 4px 4px ;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    
+ li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: #1a5280;
+}
+
+
+/* Redes sociales */
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook2{
+background: #2E406E;
+}
+
+.icon-twitter{
+background: #339DC5;
+}
+.icon-instagram{
+background: #3F60A5;
+}
+.icon-youtube{
+background: #E83028;
+}
+/* estilos de la consulta*/
+.formulario-control {
+    display: block;
+    width: 70%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-left: 40px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+
+
+}
+.formulario-fila{
+    padding: 10px;
+
+}
+.label{
+    color:white;
+    font-weight: 700;  
+}
+/* boton arriba*/
+.bot-arriba{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 0;
+
+}

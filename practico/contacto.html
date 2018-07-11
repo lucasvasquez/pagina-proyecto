@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<meta charset = "UTF-8">
+	<link rel="stylesheet" href="font.css">
+	<link rel="stylesheet" href="Styles.css">
+	<link rel="icon" href="../practico/imagenes/descarga.ico">
+	<script src="main.js"></script>
+
+</head>
+<body>
+
+	<div>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="historia.html">Historia</a></li>
+			<li><a href="Pactual.html">Plantel actual</a></li>
+			<li><a class="active" href="contacto.html">Contacto</a></li>
+		</ul>
+	</div>
+	<div class="header">
+		<h1>Club Atlético Boca Juniors <img src="../practico/imagenes/boca_escudo.png" width="60" height="60"></h1> 
+	</div>
+	<div class="social-bar">
+		<a href="https://es-la.facebook.com/BocaJuniors/" class="icon icon-facebook2" target="_blank"></a>
+		<a href="https://twitter.com/bocajrsoficial?lang=es" class="icon icon-twitter" target="_blank"></a>
+		<a href="https://www.instagram.com/bocajrsoficial/?hl=es-la" class="icon icon-instagram" target="_blank"></a>
+		<a href="https://www.youtube.com/user/bocaentretenimientos" class="icon icon-youtube" target="_blank"></a>
+	</div>
+
+	
+
+				<div class="formulario-fila">
+					<label class="label" for="nombre">Nombre y apellido</label>
+					<input type="text" id="nombre" class="formulario-control"  placeholder="Nombre y apellido">
+				</div>
+
+				<div class="formulario-fila">
+					<label class="label" for="email">Email</label>
+					<input type="text" id="email" class="formulario-control"  placeholder="Email">
+				</div>
+
+				<div class="formulario-fila">
+					<label class="label" for="mensaje">Consulta</label>
+					<textarea id="mensaje" class="formulario-control" rows="3" placeholder="Mensaje"></textarea>
+				</div>
+
+
+				<div class="formulario-fila">
+					<button onclick="enviarMensaje()" type="submit" class="formulario-boton">Enviar</button>
+				</div>
+
+			</form>
+	
+
+	<div class="bot-arriba" id="boton_arriba">
+		<img onclick = "arriba()" src="../practico/imagenes/boton.png" width="90" height="60">
+	</div>
+		
+</body>
+</html>
